@@ -1,6 +1,6 @@
 const navBar = document.getElementById("main-navigation");
-
-
+const cardContent = document.getElementsByClassName("card-content");
+const jobDescription = document.getElementsByClassName("job-desc");
 
 let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -14,3 +14,12 @@ let currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+// cardContent.addEventListener("mouseover", (e) => {
+//   jobDescription.classList.remove("hidden")
+  
+// })
+
+// cardContent.addEventListener("mouseout", (e) => {
+//     jobDescription.classList.add("hidden")
+// })
