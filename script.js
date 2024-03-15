@@ -15,11 +15,28 @@ let currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
-// cardContent.addEventListener("mouseover", (e) => {
-//   jobDescription.classList.remove("hidden")
-  
-// })
 
-// cardContent.addEventListener("mouseout", (e) => {
-//     jobDescription.classList.add("hidden")
+
+// for (const card of cardContent) {
+//     card.addEventListener("mouseover", (event)=>{
+//         for (const desc of jobDescription) {
+//             desc.classList.remove("hidden")
+//             console.log(document.getElementById(event.target.id))
+//         }        
+//     })    
+//     card.addEventListener("mouseout", ()=>{
+//         for (const desc of jobDescription) {
+//             desc.classList.add("hidden")
+//         }     
+//     })
+// }
+
+// for (const card of cardContent) {
+// card.addEventListener("click", (event)=>{   
+//     document.getElementById(event.target.id).children[0].classList.add("hidden")
 // })
+// // card.addEventListener("mouseout", (event)=>{
+// //     document.getElementById(event.target.id).children[1].classList.add("hidden")
+// // })
+              
+// }
