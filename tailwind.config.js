@@ -20,6 +20,10 @@ module.exports = {
       },
       fontFamily:{
         noto :['Noto Serif', 'serif']
+      },
+      opacity:{
+        0 :'0',
+        100:'100'
       }
     },
   },
