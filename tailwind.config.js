@@ -30,9 +30,18 @@ module.exports = {
         75:'.75',
         90:'.9',
         105:'1.05'
+      },
+      animationIterationCount:{
+        1:'1'
+      },
+      animation: {
+        // Bounces 5 times 1s equals 5 seconds
+        'bounce-short': 'bounce 1s ease-in-out 5'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ]
 }
 
