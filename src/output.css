@@ -1303,6 +1303,10 @@ video {
     padding: 9rem;
   }
 
+  .xl\:p-40{
+    padding: 10rem;
+  }
+
   .xl\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
