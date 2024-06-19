@@ -27,6 +27,9 @@ Navigate to the project directory:
 
 Open index.html in your browser to view the portfolio.
 
+<img width="281" alt="Screenshot 2024-06-19 at 1 01 32 PM" src="https://github.com/Simran145678/Portfolio_1.0/assets/67065873/cc875bda-c560-4a51-b608-e8e6976e977a">
+
+
 ## Usage
 Feel free to explore the project and use it as a reference for your own work. If you have any suggestions or improvements, I would love to hear from you!
 
