@@ -20,7 +20,7 @@ This portfolio site is a comprehensive showcase of my work, skills, and experien
 ## Installation
 To view the portfolio locally, follow these steps:
 Clone the repository:
-// git clone https://github.com/yourusername/portfolio-project.git
+// git clone git@github.com:Simran145678/Portfolio_1.0.git
 
 Navigate to the project directory:
 //cd portfolio-project
